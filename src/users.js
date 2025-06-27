@@ -1,28 +1,23 @@
 const clientData = [
   {
     name: "Максим",
-    nickname: "@max_t2",
-    photo: new URL('/images/user.png', import.meta.url).href
+    nickname: "@max_t2"
   },
   {
     name: "Александр",
-    nickname: "@alex_t2",
-    photo: new URL('/images/user.png', import.meta.url).href
+    nickname: "@alex_t2"
   },
   {
     name: "Николай",
-    nickname: "@kolya_t2",
-    photo: new URL('/images/user.png', import.meta.url).href
+    nickname: "@kolya_t2"
   },
   {
     name: "Дмитрий",
-    nickname: "@dima_t2",
-    photo: new URL('/images/user.png', import.meta.url).href
+    nickname: "@dima_t2"
   },
   {
     name: "Роман",
-    nickname: "@roma_t2",
-    photo: new URL('/images/user.png', import.meta.url).href
+    nickname: "@roma_t2"
   }
 ];
 
@@ -33,12 +28,12 @@ clientData.forEach(client => {
   const card = document.createElement('div');
   card.className = 'client-card';
   card.innerHTML = `
-    <img src="${client.photo}" alt="${client.name}">
+    <img src="public/images/user.png" alt="${client.name}">
     <p>${client.name}</p>
   `;
 
   card.addEventListener('click', () => {
-    document.querySelector('.client-photo').src = client.photo;
+    document.querySelector('.client-photo').src = "public/images/user.png";
     document.querySelector('.client-name').textContent = client.name;
     document.querySelector('.client-nickname').textContent = client.nickname;
     clientModal.style.display = 'flex';

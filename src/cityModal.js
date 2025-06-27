@@ -33,6 +33,6 @@ cityButtons.forEach(button => {
 window.addEventListener('DOMContentLoaded', () => {
   const savedCity = localStorage.getItem('selectedCity');
   if (savedCity) {
-    citySpan.textContent = savedCity;
+    city.textContent = savedCity;
   }
 });

@@ -1,9 +1,9 @@
 const clientData = [
-  {name: "Максим", nickname: "@max_t2", photo: "public/images/user.png"},
-  {name: "Александр", nickname: "@alex_t2", photo: "public/images/user.png"},
-  {name: "Николай", nickname: "@kolya_t2", photo: "public/images/user.png"},
-  {name: "Дмитрий", nickname: "@dima_t2", photo: "public/images/user.png"},
-  {name: "Роман", nickname: "@roma_t2", photo: "public/images/user.png"}
+  {name: "Максим", nickname: "@max_t2", photo: "images/user.png"},
+  {name: "Александр", nickname: "@alex_t2", photo: "images/user.png"},
+  {name: "Николай", nickname: "@kolya_t2", photo: "images/user.png"},
+  {name: "Дмитрий", nickname: "@dima_t2", photo: "images/user.png"},
+  {name: "Роман", nickname: "@roma_t2", photo: "images/user.png"}
 ];
 
 

@@ -15,6 +15,7 @@
   <script type="module" src="src/form.js"></script>
   <script type="module" src="/src/scroll.js"></script>
   <script type="module" src="src/cityModal.js"></script>
+  <script type="module" src="src/users.js"></script>
 </head>
 <body>
   <script type="module" src="src/cityModal.js"></script>
@@ -117,11 +118,29 @@
       </figure>
     </section>
 
-    <section class="social">
+    <section class="client-reviews">
+  <h2>Наши клиенты</h2>
+  <div class="client-slider">
+    <div class="client-cards"></div>
+    <button class="client-prev"> <img src="public/images/back.png" alt=""></button>
+    <button class="client-next"> <img src="public/images/next.png" alt=""> </button>
+  </div>
+</section>
+
+<div class="client-modal">
+  <div class="modal-content">
+    <span class="modal-close">×</span>
+    <img src="" alt="Фото клиента" class="client-photo">
+    <h3 class="client-name"></h3>
+    <p class="client-nickname"></p>
+  </div>
+</div>
+
+<section class="social">
       <nav class="social-block" aria-label="Соцсети">
-        <a href="#"><img src="public/images/Twitter.png" alt="Twitter"></a>
-        <a href="#"><img src="public/images/VKontakte.png" alt="ВКонтакте"></a>
-        <a href="#"><img src="public/images/Facebook.png" alt="Facebook"></a>
+        <a href="#"><img src="/images/Twitter.png" alt="Twitter"></a>
+        <a href="#"><img src="/images/VKontakte.png" alt="ВКонтакте"></a>
+        <a href="#"><img src="/images/Facebook.png" alt="Facebook"></a>
       </nav>
 
       <aside class="conditions">
@@ -132,7 +151,7 @@
 
     <hr class="footer-hr">
 
-    <footer class="footer">
+  <footer class="footer">
       <div class="logo-info">
         <img class="tele-logo" src="public/images/Logo.png" alt="Логотип Tele2">
         <p>© Tele2 Россия, 2021</p>
@@ -142,7 +161,9 @@
         <img class="logo2" src="public/images/Logo2.png" alt="Логотип студии">
       </div>
     </footer>
+
   </main>
+
 
   <div id="popup" class="popup">
     <p>Ваш регион <span id="region">Санкт-Петербург</span>?</p>

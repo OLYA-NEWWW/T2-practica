@@ -845,6 +845,43 @@ footer p {
   .info-studio{
     display: none;
   }
+
+  .city-selection {
+    padding: 10px;
+    overflow-y: auto;
+  }
+  
+  .city-selection h2 {
+    margin-top: 80px;
+    margin-left: 0;
+    font-size: 28px;
+    text-align: center;
+    padding: 0 10px;
+  }
+  
+  .grid {
+    max-width: 100%;
+    margin: 20px 0 0 0;
+    padding: 0 10px;
+  }
+  
+  .row {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  
+  .row button {
+    width: 100%;
+    padding: 15px 0;
+    margin: 5px 0;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .row button:last-child {
+    border-bottom: none;
+  }
+
 }
 
 
